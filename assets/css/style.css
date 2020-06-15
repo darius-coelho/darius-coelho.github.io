@@ -338,6 +338,10 @@ section {
     margin-right: 20px;
 }
 
+.pubInfo{
+ margin-left: 170px;   
+}
+
 .pubType {
     /* font-size: 13px; */
     color: white;
@@ -601,91 +605,31 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Publications Details
+# Project Page
 --------------------------------------------------------------*/
-.publications-details {
-  padding-top: 0;
+.project-title {
+  margin-top: 20px;
 }
 
-.publications-details .publications-details-container {
-  position: relative;
+.project-img {
+  margin-top: 30px;
 }
 
-.publications-details .publications-details-carousel {
-  position: relative;
-  z-index: 1;
+
+.project-desc {
+  margin-top: 30px;
 }
 
-.publications-details .publications-details-carousel .owl-nav, .publications-details .publications-details-carousel .owl-dots {
-  margin-top: 5px;
-  text-align: left;
+.project-pubs {
+  margin-top: 30px;
 }
 
-.publications-details .publications-details-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 10px 0 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd !important;
-}
-
-.publications-details .publications-details-carousel .owl-dot.active {
-  background-color: #149ddd !important;
-}
-
-.publications-details .publications-info {
-  padding: 30px;
-  position: absolute;
-  right: 0;
-  bottom: -70px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-}
-
-.publications-details .publications-info h3 {
-  font-size: 22px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.publications-details .publications-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.publications-details .publications-info ul li + li {
+.project-pub-item {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.publications-details .publications-description {
-  padding-top: 50px;
-}
 
-.publications-details .publications-description h2 {
-  width: 50%;
-  font-size: 26px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.publications-details .publications-description p {
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-  .publications-details .publications-description h2 {
-    width: 100%;
-  }
-  .publications-details .publications-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Footer
