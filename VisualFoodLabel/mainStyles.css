@@ -1,0 +1,52 @@
+h1 {
+  margin: 7px 10px 7px 10px;
+  font-family: monospace;
+}
+body {
+  background-color: #FFFFFF;
+}
+.titlediv {
+  width: 100%;
+  padding: 1px;
+  position: absolute;
+  display: block;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+.controlPanel {
+  display: inline-block;
+  overflow: auto;
+  position: fixed;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 1px 1px #9a9a9a;
+}
+
+.contentLabel {
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  color: #000000;
+  font-size: 12pt;
+}
+
+.contentDiv {
+  position: fixed;
+  display: inline-block;
+  background-color: #ffffff;
+  overflow: auto;
+  box-shadow: 0px 0px 1px 1px #9a9a9a;
+}
+
+.vizDiv {
+  display: block;
+  margin: auto auto auto auto;
+}
+
+.vizSelect {
+  border-collapse: collapse;
+  padding: 2px;
+  width:150px;
+  margin-right: 20px
+}

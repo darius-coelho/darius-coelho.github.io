@@ -1,0 +1,142 @@
+.labelTitle {
+  font-family: Helvetica;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 21px;
+  letter-spacing: 2px;
+}
+
+.labelS {
+  font-family: Helvetica;
+	font-size: 16pt;
+	font-style: normal;
+	line-height: 181px;
+}
+
+.labelSS {
+  font-family: Helvetica;
+	font-size: 16pt;
+  font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+}
+
+.labelAmt {
+  font-family: Helvetica;
+	font-size: 12pt;
+  font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+}
+
+.labelCal {
+  font-family: Helvetica;
+	font-size: 30pt;
+  font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+}
+
+.labelCalVal {
+  font-family: Helvetica;
+	font-size: 44pt;
+  font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+  text-anchor: end;
+}
+
+.labelDV {
+  font-family: Helvetica;
+	font-size: 12pt;
+  font-weight: bold;
+	font-style: normal;
+	line-height: 21px;
+  text-anchor: end;
+}
+
+.labelNutrientSub {
+  font-family: Helvetica;
+	font-size: 13pt;
+	font-style: italic;
+}
+
+.labelNutrientVal {
+  font-family: Helvetica;
+  font-size: 8pt;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.labelNutrient {
+  font-family: Helvetica;
+	font-size: 13pt;
+	font-style: normal;
+}
+
+.labelNutrientPctValBold {
+  font-family: Helvetica;
+	font-size: 11pt;
+  font-weight: bold;
+	font-style: normal;
+}
+
+.labelNutrientPctVal{
+  font-family: Helvetica;
+	font-size: 11pt;
+	font-style: normal;
+}
+
+.labelNutrientPctValCal {
+  font-family: Helvetica;
+	font-size: 19pt;
+  font-weight: bold;
+	font-style: normal;
+}
+
+.labelNutrientB {
+  font-family: Helvetica;
+	font-size: 14pt;
+  font-weight: bold;
+	font-style: normal;
+}
+
+.labelNutrientBCal {
+  font-family: Helvetica;
+	font-size: 22pt;
+  font-weight: bold;
+	font-style: normal;
+}
+
+.labelNutrientDVB {
+  font-family: Helvetica;
+	font-size: 14pt;
+  font-weight: bold;
+	font-style: normal;
+  text-anchor: end;
+}
+
+.labelNutrientDV {
+  font-family: Helvetica;
+	font-size: 14pt;
+	font-style: normal;
+	line-height: 21px;
+  text-anchor: end;
+}
+
+.labelDiscl {
+  font-family: Helvetica;
+	font-size: 10pt;
+	font-style: normal;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.labelMarkText{
+  font-size: 6pt;
+  font-family:Helvetica;
+  font-weight:bold;
+  fill:#dadada;
+}
