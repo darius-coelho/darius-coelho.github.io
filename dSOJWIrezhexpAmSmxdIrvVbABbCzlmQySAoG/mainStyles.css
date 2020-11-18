@@ -101,11 +101,20 @@ body {
   z-index: 5;
 }
 
+.arrow {
+  display: inline-block;
+  position: absolute;  
+  bottom: 5px;
+  cursor: pointer;
+  color: rgb(0, 123, 255);
+}
+
 .help {
   display: inline-block;
   position: absolute;
   right: 5px;
   top: 5px;
+  cursor: pointer;
 }
 
 .clear {
@@ -266,4 +275,12 @@ tr.vizTableDivide{
 .fade-appear.fade-appear-active {
   opacity: 1;
   transition: opacity 2s ease-in;
+}
+
+.axis line{
+  stroke: rgb(128, 128, 128);
+}
+
+.axis path{
+  stroke: rgb(128, 128, 128);
 }
