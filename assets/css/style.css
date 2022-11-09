@@ -332,14 +332,14 @@ section {
     float: left;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 100px;  
+    flex-basis: 100px;
     width: 150px;
     height: auto;
     margin-right: 20px;
 }
 
 .pubInfo{
- margin-left: 170px;   
+ margin-left: 170px;
 }
 
 .pubType {
@@ -560,6 +560,14 @@ section {
   }
 }
 
+.contact-section-label {
+  width: 175px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: right;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -608,7 +616,13 @@ section {
 # Project Page
 --------------------------------------------------------------*/
 .project-title {
+  margin-top: 30px;
+}
+
+.project-affiliation {
   margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .project-img {
@@ -622,13 +636,13 @@ section {
 
 .project-pubs {
   margin-top: 30px;
+  padding-bottom: 150px;
 }
 
 .project-pub-item {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 
 
 /*--------------------------------------------------------------
